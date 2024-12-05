@@ -1,4 +1,4 @@
-﻿The following are instructions to execute the MarineGPT model. 
+﻿The following are instructions to execute the original MarineGPT model. 
 Based on the available instruction on the GitHub page of MarineGPT (<https://github.com/hkust-vgd/MarineGPT/blob/main/README.md>). There are several options as to which of the models to use (Vicuna 7B/Vicuna13B/Gemma 2B/Gemma7B). This implementation uses the Vicuna 7B model.  
 
 1. Navigate to  your chosen project directory
