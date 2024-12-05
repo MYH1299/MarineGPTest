@@ -3,7 +3,9 @@
 https://github.com/hkust-vgd/MarineGPT  
 (use Vicuna)  
 2- Replace the files from this Git  
-3- Navigate to the file  
+3- Navigate to the MarineGPT file  
+4- download the checkpointinto the root of MarineGPT  
+https://drive.google.com/file/d/1udhmjDQfx3zmyXROd6-iQN60zxpIccxS/view?usp=sharing  
 4- Run   
 ```
 python demo.py --cfg-path eval_configs/marinegpt_eval.yaml  --gpu-id 0
