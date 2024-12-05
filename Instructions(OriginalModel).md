@@ -47,9 +47,12 @@ i. Modify the path to the llama model in line 16 of MarineGPT/marinegpt/configs/
     2. In line 11, change the checkpoint path to the downloaded checkpoint.
 **ckpt: ‘marinegpt\_vicuna\_7B\_stage2\_ckpt.pth’**
 
-11. Replace demo.py, train.py and MarineGPT/marinegpt/models/marinegpt.py scripts with the ones present in this repository.
+11. In MarineGPT/marinegpt/models/marinegpt.py add the following line between line 50 and line 51:‎
+**model_format = “llama_model”‎**
 
-12. To run the model:
+12. Replace demo.py, train.py scripts with the ones present in this repository.
+
+13. To run the model:
 ```
 python demo.py --cfg-path eval\_configs/marinegpt\_eval.yaml  --gpu-id 0
 ```
