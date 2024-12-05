@@ -8,7 +8,7 @@ model:
   low_resource: True
   prompt_path: "prompts/alignment_4.txt"
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: 'marinegpt_vicuna_7B_stage2_ckpt.pth'
+  ckpt: 'checkpoint_4.pth'
 
 datasets:
   cc_sbu_align:
